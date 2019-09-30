@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<!-- informacoes da aba -->
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../imagens/imagem login3.png">
+        <title>
+            PiuPiuwer
+        </title>    
+        <!-- links da pagina -->
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/tooltipster.bundle.min.css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+        <link rel="stylesheet" href="../slick/slick.css"/> -->
+        <link rel="stylesheet" href="../slick/slick-theme.css"/>
+        <link rel="stylesheet" href="../css/site.css">
+        <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Manjari&display=swap" rel="stylesheet">
+    </head>
+    <!-- pagina -->
+    <body>
+        <!-- cabecalho -->
+        <div class="cabecalho">
+            <div class="cabecalho-esquerda">
+                <div class="logao">
+                    <img src="/Imagens/imagem login2.png" title="PiuPiuwer" id="logo" alt = "Logo">
+                    <h1 id="sidelogo">
+                        PiuPiuwer
+                    </h1>
+                </div>
+                <div id="barradepesquisa">
+                    <input type="text" id="busca" placeholder="Digite o que você busca">
+                </div>  
+            </div>
+            <div class="cabecalho-direita">
+                <a class="outraspaginas" href="/html/site.html">
+                    Página Inicial
+                </a> 
+                <a class="outraspaginas" href="/html/mypage.html">
+                    Minha Página
+                </a>
+                <a class="outraspaginas" href="/html/login.html">
+                    Sair
+                </a> 
+            </div>
+        </div>
+        <!-- conteudo da pagina -->
+        <div class="pagina">
+            <!-- lado esquerdo -->
+            <div class="container-left">
+                <!-- criacao de post -->
+                <div class="primeiropost">
+                    <div class="criacao-post">
+                        <img src="/imagens/matiasperfil.jpg" alt="Foto de Perfil">
+                        <textarea type="text" id="input-post" placeholder="O que passa pela sua cabeça?"></textarea>
+                    </div>
+                    <div class="underpost">
+                        <p class="contPalavras" id="contador">
+                            <span id="numPalavras">0</span>
+                            /
+                            <span>140</span>
+                        </p>
+                        <a href="#" class="link" class="publicar tooltip"><button type="submit" class="botao-publicar">Publicar</button></a>
+                    </div>
+                </div>
+                <!-- stories -->
+                <div id="stories">
+                    <div class="slider">
+                        <div class="divstories">
+                            <img src="/imagens/matiasperfil.jpg" alt="Perfil Matias">
+                            <span> Matias Helmeister </span>
+                            <button type="button" class="botao">
+                                Visualizar
+                            </button>
+                        </div>
+                        <div class="divstories">
+                            <img src="/imagens/joaoperfil.jpg" alt="Perfil Joao">
+                            <span>João<br> Roberto</span>
+                            <button type="button" class="botao">
+                                Visualizar
+                            </button>
+                        </div>
+                        <div class="divstories">
+                            <img src="/imagens/melperfil.jpg" alt="Perfil Laura">
+                            <span>Laura de Azevedo</span>
+                            <button type="button" class="botao">
+                                Visualizar
+                            </button>
+                        </div>
+                        <div class="divstories">
+                            <img src="/imagens/polijr.jpg" alt="Perfil PJ">
+                            <span>Poli<br> Júnior</span>
+                            <button type="button" class="botao">
+                                Visualizar
+                            </button>
+                        </div>
+                        <div class="divstories">
+                            <img src="/imagens/neymar.jpg" alt="Perfil Neymar">
+                            <span>Neymar<br> Jr<br></span>
+                            <button type="button" class="botao">
+                                Visualizar
+                            </button>
+                        </div>
+                        <div class="divstories">
+                            <img src="/imagens/bird.jpg" alt="Perfil Lucas">
+                            <span>Lucas Speridião</span>
+                            <button type="button" class="botao">
+                                Visualizar
+                            </button>
+                        </div>
+                        <div class="divstories">
+                            <img src="/imagens/meninaperfil.jpg" alt="Perfil Nathaliana">
+                            <span>Nathaliana Souza</span>
+                            <button type="button" class="botao">
+                                Visualizar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- feed -->
+                <div class="feed" id="feed">
+                    <div class="post">
+                        <div class="regiao-superior-post">
+                            <div class="infopost">
+                                <img src="/imagens/spotted.jpg" alt="Foto de Perfil">
+                                <h2>
+                                    <a href="/mypage/spottedpoli2.0">Spotted Poli 2.0</a>
+                                </h2>
+                            </div>
+
+                            <a href="#" class="link">
+                                <i class="botao-apagar material-icons" title="Remover">clear</i>
+                            </a>
+                        </div>
+                        <p class="textopost">
+                            Chammas da prod, te olhei desde o seu primeiro dia na poli. Ta solteiro? Me nota na PJ         
+                        </p>
+                        <div class="reactions">
+                            <div class="thumb">
+                                <span class="contLikes">
+                                    0
+                                </span>
+                                <a href="#" class="link">
+                                    <i class="material-icons like tooltip"title="Gostei">thumb_up</i>
+                                </a>
+                            </div>
+                            <div class="thumb">
+                                <span class="contDislikes">
+                                    0
+                                </span>
+                                <a href="#" class="link">
+                                    <i class="material-icons dislike tooltip" title="Não Gostei">thumb_down</i>
+                                </a>
+                            </div>
+                            <a href="#" class="link">
+                                <i class="material-icons destaque tooltip" title="Destacar">stars</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- lado direito -->
+            <div class="container-right">
+                <!-- barras laterais -->
+                <div class="aside">
+                    <h2>
+                        Trending Topics
+                    </h2>
+                    <ul>
+                        <a href=""><li>#ibovespa</li></a>
+                        <a href=""><li>#pjr</li></a>
+                        <a href=""><li>#reformadaprevidencia</li></a>
+                        <a href=""><li>#iphoneXI</li></a>
+                        <a href=""><li>#BRexit</li></a>
+                        <a href=""><li>#desimpedidos</li></a>
+                        <a href=""><li>#santosfc</li></a>
+                        <a href=""><li>#eitaeodjgbr</li></a>
+                    </ul>
+                </div>
+                <div class="aside">
+                    <h2>
+                        Grupos
+                    </h2>
+                    <ul>
+                        <a href=""><li>PJoteiros</li></a>
+                        <a href=""><li>Poli Júnior NTec</li></a>
+                        <a href=""><li>Craques do Futebol</li></a>
+                        <a href=""><li>Share Your Rolê</li></a>
+                        <a href=""><li>Terceirão Móbile</li></a>
+                        <a href=""><li>COD Gamers</li></a>
+                        <a href=""><li>Cara, O Quê?</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- rodape -->
+        <footer>
+            &copy; 2019 PiuPiuwer
+        </footer>
+        <!-- arquivos js importados -->
+        <script src="../js/jquery.js"></script>
+        <script src="../js/site.js"></script>
+        <script src="../js/tooltipster.bundle.min.js"></script>
+        <script src="../slick/slick.min.js"></script>
+    </body>
+
+</html> 
