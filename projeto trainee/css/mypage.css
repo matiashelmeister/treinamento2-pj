@@ -145,6 +145,8 @@ body {
     font-weight: bold;
 }
 
+/* FEED */
+
 .feed{
     display: flex;
     flex-direction: column;
@@ -169,7 +171,7 @@ body {
     width: inherit;
     margin-top: .25em;
     margin-bottom: 1.5em;
-    background-color: #ffc457;
+    background-color: #dfbe76;
     border-radius: 8px;
     padding: 2em;
     padding-bottom: 1em;
@@ -235,7 +237,7 @@ body {
     margin-left: .1em;
     margin-right: .5em;
     margin-top: -.1em;
-    color: #00672e;
+    color: #1f37be;
 
 }
 
@@ -258,16 +260,18 @@ body {
 
 .dislikeclicado{
     margin-left: .1em;
-    color: #11311e;
+    color: #af2828;
 }
 
-.destacar{
-    background-color: #00672e;
-    width: 7em;
-    height: 2.5em;
-    margin-left: 38.2em;
-    margin-bottom: .5em;
+.destaque{
+    margin-left: .5em;
 }
+
+/* .destaqueclicado{
+    color: #a07c45;
+    background-color: #0a0c0b;
+    margin-left: .5em;
+} */
 
 /* LADO DIREITO */
 

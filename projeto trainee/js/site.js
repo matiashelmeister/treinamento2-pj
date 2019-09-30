@@ -18,9 +18,6 @@ $(function(){
     $(".destaque").click(destacaPost); 
     $("#input-post").on("input",contaCaracteres);
     publicaPost();
-    $(".link").click(function(){
-        event.preventDefault();
-    })
 });
 
 // request pro servidor
@@ -223,4 +220,4 @@ function destacaPost(){
 //     destaque.addClass("destaqueclicado").removeClass("destaque");
 //     feed.prepend(post);
 //     removePost();
-// };
+// }
