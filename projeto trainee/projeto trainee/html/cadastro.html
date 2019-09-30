@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<!-- informacoes da aba -->
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Faça seu Cadastro!
+        </title>
+        <link rel="icon" href="/imagens/imagem login3.png">
+        <!-- links da pagina -->
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/cadastro.css">
+        <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+    </head>
+    <!-- pagina -->
+    <body> 
+        <main>
+            <!-- imagem de fundo (esquerdas) -->
+            <img src ="/imagens/imagem login2.png" id="imagem" alt ="Pássaro simbólico">
+            <!-- area de cadastro (direita) -->
+            <div class="container-right">
+                <div class="texto">
+                    <h1 class="titulo">
+                        Cadastre-se!
+                    </h1>
+                    <!-- formulario -->
+                    <form>
+                        <label>
+                            <input id="nome" placeholder="Digite nome e sobrenome" autofocus required>
+                        </label>
+                        <label>
+                            <input id="email" name="e-mail" placeholder="Digite seu e-mail" type="email" required>
+                        </label>
+                        <label>
+                            <input id ="usuario" placeholder="Escolha um nome de usuário" required>
+                        </label>
+                        <label>
+                            <input id ="senha" placeholder="Digite uma senha" required>
+                        </label>
+                        <a href="/html/login.html">
+                            <button type ="submit">
+                                <strong>Fazer cadastro</strong>
+                            </button>
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <!-- rodape -->
+        <footer>
+            &copy; 2019 PiuPiuwer
+        </footer>
+        <script src="js/jquery.js"></script>
+        <script src="js/cadastro.js"></script>
+    </body>
+
+</html>
